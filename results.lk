@@ -1,10 +1,10 @@
-import "/home/isaias/Documents/work/CIO-Aguascalientes/rankineDemanda/sam/ppa/functions/foutputs.lk";
-import "/home/isaias/Documents/work/CIO-Aguascalientes/rankineDemanda/sam/ppa/functions/fhelio.lk";
-import "/home/isaias/Documents/work/CIO-Aguascalientes/rankineDemanda/sam/ppa/functions/hourlyData.lk";
+ximport "/path-to-model/functions/foutputs.lk";
+import "/path-to-model/functions/fhelio.lk";
+import "/path-to-model/functions/hourlyData.lk";
 
 
-rut="/home/isaias/Documents/work/CIO-Aguascalientes/rankineDemanda/sam/ppa/";
-modelo = "bcs_opt";  // bcs_b, bcs_p, sin_b
+rut="/path-to-model/";
+modelo = "nameModel";  // file.sam
 active_case(modelo);
 //set("override_opt", 1);
 simulate();

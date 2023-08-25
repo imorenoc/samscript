@@ -1,6 +1,6 @@
-import '/home/isaias/Documents/work/CIO-Aguascalientes/rankineDemanda/sam/ppa/functions/parametrico.lk';
-rut = '/home/isaias/Documents/work/CIO-Aguascalientes/rankineDemanda/sam/ppa/';
-modelo = 'bcs_p';
+import "/path-to-model/functions/parametrico.lk";
+rut =  "path-to-model";
+modelo = "nameModel"; // file.sam
 active_case(modelo);
 
 /*
