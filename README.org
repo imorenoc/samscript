@@ -1,0 +1,8 @@
+#+title: Script LK for SAM
+
+
+You need to create the SAM model first
+
+The script =results.lk= allows simulating the model and saving the input and output parameters in a data file, on the other hand the script =analisis_p.lk= additionally allows selection of an interval for the variable of interest.
+
+See the article /Techno-economic feasibility of a Solar Tower plant for the islanded power system of Baja California Sur/
