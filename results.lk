@@ -1,4 +1,4 @@
-ximport "/path-to-model/functions/foutputs.lk";
+import "/path-to-model/functions/foutputs.lk";
 import "/path-to-model/functions/fhelio.lk";
 import "/path-to-model/functions/hourlyData.lk";
 
